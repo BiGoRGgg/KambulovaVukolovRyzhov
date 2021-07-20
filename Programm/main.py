@@ -1,6 +1,7 @@
 import sys
 from design2 import Ui_MainWindow
 from TheoryW import Ui_TheoryW
+from Formulars import Ui_Formulars
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
@@ -12,13 +13,15 @@ class MyWindow(QtWidgets.QMainWindow):  # класс главного окна (
         self.ui.setupUi(self)   # достаём компоненты из ui
 
         self.ui.pushButton.clicked.connect(self.openTheory)
+        self.ui.pushButton_2.clicked.connect(self.openFormula)
 
     def openTheory(self):
         theory = Theory(self)
         theory.exec_()
 
     def openFormula(self):
-        pass
+        formula = Formula(self)
+        formula.exec_()
 
     def openCalc(self):
         pass
@@ -30,6 +33,12 @@ class Theory(QtWidgets.QDialog):
         self.uiTheory = Ui_TheoryW()  # достаём и присваиваем диалоговое окно
         self.uiTheory.setupUi(self)  # достаём компоненты из ui
 
+
+class Formula(QtWidgets.QDialog):
+    def __init__(self, parent=None):
+        super(Formula, self).__init__(parent)
+        self.uiFormula = Ui_Formulars()  # достаём и присваиваем диалоговое окно
+        self.uiFormula.setupUi(self)  # достаём компоненты из ui
 
 
 App = QtWidgets.QApplication([])    # создаём рабочее пространство
