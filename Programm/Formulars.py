@@ -17,9 +17,9 @@ class Ui_Formulars(object):
         Formulars.resize(1280, 720)
         self.verticalLayout = QtWidgets.QVBoxLayout(Formulars)
         self.verticalLayout.setObjectName("verticalLayout")
-        self.textEdit = QtWidgets.QTextEdit(Formulars)
-        self.textEdit.setObjectName("textEdit")
-        self.verticalLayout.addWidget(self.textEdit)
+        self.textBrowser = QtWidgets.QTextBrowser(Formulars)
+        self.textBrowser.setObjectName("textBrowser")
+        self.verticalLayout.addWidget(self.textBrowser)
 
         self.retranslateUi(Formulars)
         QtCore.QMetaObject.connectSlotsByName(Formulars)
@@ -27,26 +27,26 @@ class Ui_Formulars(object):
     def retranslateUi(self, Formulars):
         _translate = QtCore.QCoreApplication.translate
         Formulars.setWindowTitle(_translate("Formulars", "Dialog"))
-        self.textEdit.setHtml(_translate("Formulars", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.textBrowser.setHtml(_translate("Formulars", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Times New Roman,serif\'; font-size:18pt; font-weight:600;\">Дихотомия.</span><span style=\" font-size:8pt;\"> </span></p>\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><img src=\"file:///C:\\Users\\error\\AppData\\Local\\Temp\\msohtmlclip1\\01\\clip_image002.png\" width=\"83\" height=\"44\" /><span style=\" font-size:8pt;\"> </span></p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><img src=\"file:///C:\\Users\\error\\AppData\\Local\\Temp\\msohtmlclip1\\01\\clip_image004.png\" width=\"222\" height=\"40\" /><span style=\" font-size:8pt;\"> </span></p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"file:///C:\\Users\\error\\AppData\\Local\\Temp\\msohtmlclip1\\01\\clip_image006.png\" width=\"75\" height=\"44\" /><span style=\" font-size:8pt;\"> </span></p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Times New Roman,serif\'; font-size:18pt; font-weight:600;\">Золотое Сечение.</span><span style=\" font-size:8pt;\"> </span></p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"file:///C:\\Users\\error\\AppData\\Local\\Temp\\msohtmlclip1\\01\\clip_image008.png\" width=\"146\" height=\"44\" /><span style=\" font-size:8pt;\"> </span></p>\n"
-"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"file:///C:\\Users\\error\\AppData\\Local\\Temp\\msohtmlclip1\\01\\clip_image010.png\" width=\"164\" height=\"24\" /><span style=\" font-family:\'Times New Roman,serif\'; font-size:14pt;\">,</span><span style=\" font-size:8pt;\"> </span></p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"file:///C:\\Users\\error\\AppData\\Local\\Temp\\msohtmlclip1\\01\\clip_image012.png\" width=\"109\" height=\"44\" /><span style=\" font-size:8pt;\"> </span></p>\n"
-"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"file:///C:\\Users\\error\\AppData\\Local\\Temp\\msohtmlclip1\\01\\clip_image014.png\" width=\"125\" height=\"24\" /><span style=\" font-family:\'Times New Roman,serif\'; font-size:14pt;\">,</span><span style=\" font-size:8pt;\"> </span></p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"file:///C:\\Users\\error\\AppData\\Local\\Temp\\msohtmlclip1\\01\\clip_image016.png\" width=\"178\" height=\"49\" /><span style=\" font-size:8pt;\"> </span></p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"file:///C:\\Users\\error\\AppData\\Local\\Temp\\msohtmlclip1\\01\\clip_image018.png\" width=\"150\" height=\"49\" /><span style=\" font-size:8pt;\"> </span></p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"file:///C:\\Users\\error\\AppData\\Local\\Temp\\msohtmlclip1\\01\\clip_image020.png\" width=\"197\" height=\"49\" /><span style=\" font-size:8pt;\"> </span></p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"file:///C:\\Users\\error\\AppData\\Local\\Temp\\msohtmlclip1\\01\\clip_image022.png\" width=\"354\" height=\"49\" /><span style=\" font-size:8pt;\"> </span></p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"file:///C:\\Users\\error\\AppData\\Local\\Temp\\msohtmlclip1\\01\\clip_image024.png\" width=\"366\" height=\"49\" /><span style=\" font-size:8pt;\"> </span></p>\n"
-"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Times New Roman,serif\'; font-size:20pt; font-weight:600;\"> </span><span style=\" font-size:8pt;\"> </span></p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Times New Roman,serif\'; font-size:18pt; font-weight:600;\"> </span><span style=\" font-size:8pt;\"> </span></p></body></html>"))
+"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Times New Roman,serif\'; font-size:18pt; font-weight:600;\">Дихотомия.</span><span style=\" font-size:18pt;\"> </span></p>\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><img src=\"file:02\\clip_image002.png\" width=\"83\" height=\"44\" /><span style=\" font-size:14pt;\"> </span></p>\n"
+"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><img src=\"file:02\\clip_image004.png\" width=\"222\" height=\"40\" /><span style=\" font-size:14pt;\"> </span></p>\n"
+"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"file:02\\clip_image006.png\" width=\"75\" height=\"44\" /><span style=\" font-size:14pt;\"> </span></p>\n"
+"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Times New Roman,serif\'; font-size:18pt; font-weight:600;\">Золотое Сечение.</span><span style=\" font-size:18pt;\"> </span></p>\n"
+"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"file:02\\clip_image008.png\" width=\"146\" height=\"44\" /><span style=\" font-size:14pt;\"> </span></p>\n"
+"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"file:02\\clip_image010.png\" width=\"164\" height=\"24\" /><span style=\" font-family:\'Times New Roman,serif\'; font-size:14pt;\">,</span><span style=\" font-size:14pt;\"> </span></p>\n"
+"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"file:02\\clip_image012.png\" width=\"109\" height=\"44\" /><span style=\" font-size:14pt;\"> </span></p>\n"
+"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"file:02\\clip_image014.png\" width=\"125\" height=\"24\" /><span style=\" font-family:\'Times New Roman,serif\'; font-size:14pt;\">,</span><span style=\" font-size:14pt;\"> </span></p>\n"
+"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"file:02\\clip_image016.png\" width=\"178\" height=\"49\" /><span style=\" font-size:14pt;\"> </span></p>\n"
+"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"file:02\\clip_image018.png\" width=\"150\" height=\"49\" /><span style=\" font-size:14pt;\"> </span></p>\n"
+"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"file:02\\clip_image020.png\" width=\"197\" height=\"49\" /><span style=\" font-size:14pt;\"> </span></p>\n"
+"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"file:02\\clip_image022.png\" width=\"354\" height=\"49\" /><span style=\" font-size:14pt;\"> </span></p>\n"
+"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"file:02\\clip_image024.png\" width=\"366\" height=\"49\" /><span style=\" font-size:14pt;\"> </span></p>\n"
+"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Times New Roman,serif\'; font-size:14pt; font-weight:600;\"> </span><span style=\" font-size:14pt;\"> </span></p>\n"
+"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Times New Roman,serif\'; font-size:14pt; font-weight:600;\"> </span><span style=\" font-size:14pt;\"> </span></p></body></html>"))
 
 
 if __name__ == "__main__":
